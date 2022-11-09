@@ -171,7 +171,7 @@ const Home = () => {
           <div className="frame__description w-full lg:w-6/12 flex justify-start lg:justify-end">
             {page >= 0 && page < 4 && !isChange ? (
               <motion.div
-                className="w-full lg:w-9/12 lg:ml-auto flex flex-col space-y-2 lg:space-y-1"
+                className="w-full lg:w-9/12 lg:ml-auto lg:mr-8 flex flex-col space-y-2 lg:space-y-1"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6 }}
