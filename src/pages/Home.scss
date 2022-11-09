@@ -1,0 +1,52 @@
+.home {
+  overflow: hidden;
+  .frame {
+    &__description {
+      width: 60%;
+      padding-top: 8vh;
+      margin: 0 auto;
+    }
+
+    .frame__list {
+      img {
+        top: 0;
+        cursor: grab;
+      }
+      img:active {
+        cursor: grabbing;
+      }
+
+      .motionCard {
+        width: 75%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home {
+    .frame {
+      &__description {
+        width: 90%;
+        padding-top: 1vh;
+        margin: 0 auto;
+      }
+
+      .frame__list {
+        height: 50vh;
+
+        img {
+          top: 0;
+          cursor: grab;
+        }
+        img:active {
+          cursor: grabbing;
+        }
+
+        .motionCard {
+          width: 70%;
+        }
+      }
+    }
+  }
+}

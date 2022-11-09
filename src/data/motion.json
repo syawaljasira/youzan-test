@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "src": "/images/design-1.jpg",
+    "title": "Backstage Tickets to the World of Service Design at Youzan",
+    "subtitle": "Behind The Scenes",
+    "theme": "theme-pink"
+  },
+  {
+    "id": 2,
+    "src": "/images/design-2.jpg",
+    "title": "Finding your T-Shape as a Generalist Designer",
+    "subtitle": "Product Design",
+    "theme": "theme-pink"
+  },
+  {
+    "id": 3,
+    "src": "/images/design-3.jpg",
+    "title": "We're Spilling the Tea: Youzan UX Writing Questions Answered",
+    "subtitle": "UX Writing",
+    "theme": "theme-yellow"
+  },
+  {
+    "id": 4,
+    "src": "/images/design-4.jpg",
+    "title": "Growing, Scaling, and Tuning: Meet Youzan's Global Head of Design Ops",
+    "subtitle": "Design Ops",
+    "theme": "theme-yellow"
+  }
+]
